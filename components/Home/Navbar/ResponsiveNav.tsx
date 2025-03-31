@@ -1,8 +1,13 @@
 import React from 'react'
+import Nav from './Nav'
+import MobileNavbar from './MobileNavbar'
 
 const ResponsiveNav = () => {
   return (
-    <div>ResponsiveNav</div>
+    <div>
+        <Nav />
+        <MobileNavbar />
+    </div>
   )
 }
 
