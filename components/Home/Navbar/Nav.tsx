@@ -2,6 +2,7 @@ import { navLinks } from '@/constant/constant';
 import Link from 'next/link';
 import React from 'react';
 import { FaShoppingBag } from 'react-icons/fa';
+import { HiBars3BottomRight } from 'react-icons/hi2';
 
 const Nav = () => {
   return (
@@ -33,6 +34,7 @@ const Nav = () => {
               Buy Now
             </span>
           </a>
+          <HiBars3BottomRight className='text-white w-8 h-8 cursor-pointer lg:hidden'/>
         </div>
       </div>
     </div>
