@@ -1,4 +1,5 @@
 'use client';
+import ThemeToggle from '@/components/Helper/ThemeToggle';
 import { navLinks } from '@/constant/constant';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
@@ -21,7 +22,11 @@ const Nav = ({ openNav }: Props) => {
     return () => window.removeEventListener('scroll', handler);
   }, []);
   return (
-    <div className={`bg-pink-700 ${navBg ? "bg-pink-700 shadow-md" : "fixed"} transition-all duration-200 h-[12vh] z-[100] fixed w-full`}>
+    <div
+      className={`bg-pink-700 ${
+        navBg ? 'bg-pink-700 shadow-md' : 'fixed'
+      } transition-all duration-200 h-[12vh] z-[100] fixed w-full`}
+    >
       <div className="flex items-center h-full justify-between w-[90%] sm:w-[80%] mx-auto">
         <div className="text-white font-bold text-2xl sm:text-3xl">LOGO</div>
         <div className="hidden lg:flex items-center space-x-10">
@@ -49,6 +54,7 @@ const Nav = ({ openNav }: Props) => {
               Buy Now
             </span>
           </a>
+          <ThemeToggle />
           <HiBars3BottomRight
             onClick={openNav}
             className="text-white w-8 h-8 cursor-pointer lg:hidden"
