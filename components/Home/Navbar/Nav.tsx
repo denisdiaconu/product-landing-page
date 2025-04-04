@@ -23,7 +23,7 @@ const Nav = ({ openNav }: Props) => {
   }, []);
   return (
     <div
-      className={`bg-pink-700 ${
+      className={`${
         navBg ? 'bg-pink-700 shadow-md' : 'fixed'
       } transition-all duration-200 h-[12vh] z-[100] fixed w-full`}
     >
