@@ -45,9 +45,18 @@ const featureData = [
 
 const Features = () => {
   return (
-    <div>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
-      cupiditate.
+    <div className="pt-16 pb-16">
+      <div className='w-[80%] mx-auto gap-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
+        {featureData.map((feature, index) => {
+            return <div key={index} className='text-center mx-auto'>
+                <div className='mx-auto text-center'>
+                    {feature.icon}
+                </div>
+                <h1 className='text-gray-900 mt-4 text-lg font-semibold dark:text-white'>{feature.title}</h1>
+                <p className='text-gray-600 text-sm dark:text-gray-300 mt-4'>{feature.description}</p>
+            </div>
+        })}
+      </div>
     </div>
   );
 };
