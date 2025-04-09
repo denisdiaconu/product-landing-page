@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const About = () => {
-  return (
-    <div>About</div>
-  )
-}
+type Props = {
+  imageOrder: string;
+  textOrder: string;
+  title: string;
+  linkText: string;
+};
 
-export default About
+const About = ({ imageOrder, textOrder, title, linkText }: Props) => {
+  return <div>About</div>;
+};
+
+export default About;
