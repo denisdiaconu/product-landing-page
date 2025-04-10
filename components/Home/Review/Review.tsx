@@ -1,5 +1,5 @@
-import React from 'react'
-import ReviewSlider from './ReviewSlider'
+import React from 'react';
+import ReviewSlider from './ReviewSlider';
 
 const Review = () => {
   return (
