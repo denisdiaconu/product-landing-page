@@ -2,6 +2,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import ReviewCard from './ReviewCard';
 
 const responsive = {
   desktop: {
@@ -30,10 +31,17 @@ const ReviewSlider = () => {
       autoPlaySpeed={4000}
       keyBoardControl={true}
     >
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-      <div>Item 4</div>
+      <ReviewCard image="/images/c1.png" name="John Doe" role="Founder Codex" />
+      <ReviewCard
+        image="/images/c2.png"
+        name="Jason Doe"
+        role="Founder TechBox"
+      />
+      <ReviewCard
+        image="/images/c3.png"
+        name="Jane Doe"
+        role="Co-Founder Devex"
+      />
     </Carousel>
   );
 };
