@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaDribbble, FaFacebookF, FaYoutube } from 'react-icons/fa';
+import { FaX } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -10,6 +12,20 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil
             dolorum velit voluptate odit totam!
           </p>
+          <div className='text-white flex items-center space-x-4 mt-6'>
+            <div className='bg-blue-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
+                <FaFacebookF />
+            </div>
+            <div className='bg-sky-500 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
+                <FaX />
+            </div>
+            <div className='bg-pink-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
+                <FaDribbble/>
+            </div>
+            <div className='bg-rose-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
+                <FaYoutube />
+            </div>
+          </div>
         </div>
       </div>
     </div>
