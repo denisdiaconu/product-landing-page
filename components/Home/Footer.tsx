@@ -60,23 +60,20 @@ const Footer = () => {
             Privacy Police
           </p>
         </div>
-        <div className="space-y-5">
-          <h1 className="text-white text-lg font-bold">Company</h1>
-          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            About Us
-          </p>
-          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Services
-          </p>
-          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Our Customer
-          </p>
-          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Portfolio
-          </p>
-          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
-            Blogs
-          </p>
+        <div>
+          <h1 className="text-white text-lg font-bold">Get In Touch</h1>
+          <div className="mt-6">
+            <h1 className="text-white text-sm">Our Mobile Number</h1>
+            <h1 className="text-white text-base font-bold mt-1">
+              +1 555 237-8490
+            </h1>
+          </div>
+          <div className="mt-6">
+            <h1 className="text-white text-sm">Our Address</h1>
+            <h1 className="text-white text-base font-bold mt-1">
+              Rovigo, Italy
+            </h1>
+          </div>
         </div>
       </div>
     </div>
