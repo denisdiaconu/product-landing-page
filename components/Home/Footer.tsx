@@ -12,20 +12,71 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil
             dolorum velit voluptate odit totam!
           </p>
-          <div className='text-white flex items-center space-x-4 mt-6'>
-            <div className='bg-blue-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
-                <FaFacebookF />
+          <div className="text-white flex items-center space-x-4 mt-6">
+            <div className="bg-blue-700 w-8 h-8 flex items-center justify-center flex-col rounded-full">
+              <FaFacebookF />
             </div>
-            <div className='bg-sky-500 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
-                <FaX />
+            <div className="bg-sky-500 w-8 h-8 flex items-center justify-center flex-col rounded-full">
+              <FaX />
             </div>
-            <div className='bg-pink-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
-                <FaDribbble/>
+            <div className="bg-pink-700 w-8 h-8 flex items-center justify-center flex-col rounded-full">
+              <FaDribbble />
             </div>
-            <div className='bg-rose-700 w-8 h-8 flex items-center justify-center flex-col rounded-full'>
-                <FaYoutube />
+            <div className="bg-rose-700 w-8 h-8 flex items-center justify-center flex-col rounded-full">
+              <FaYoutube />
             </div>
           </div>
+        </div>
+        <div className="space-y-5">
+          <h1 className="text-white text-lg font-bold">Company</h1>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            About Us
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Services
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Our Customer
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Portfolio
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Blogs
+          </p>
+        </div>
+        <div className="space-y-5">
+          <h1 className="text-white text-lg font-bold">Support</h1>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Legal Information
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Terms & Conditions
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Report Abuse
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Privacy Police
+          </p>
+        </div>
+        <div className="space-y-5">
+          <h1 className="text-white text-lg font-bold">Company</h1>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            About Us
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Services
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Our Customer
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Portfolio
+          </p>
+          <p className="text-gray-300 hover:text-gray-400 font-medium cursor-pointer text-sm">
+            Blogs
+          </p>
         </div>
       </div>
     </div>
