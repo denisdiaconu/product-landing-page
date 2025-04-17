@@ -1,9 +1,16 @@
-import React from 'react'
+'use client';
+import React, { useEffect, useState } from 'react';
 
 const ScrollToTop = () => {
-  return (
-    <div>ScrollToTop</div>
-  )
-}
+  const [isVisible, setIsVisible] = useState(false);
 
-export default ScrollToTop
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.screenY > 300) setIsVisible(true);
+      else setIsVisible(false);
+    };
+  }, []);
+  return <div>ScrollToTop</div>;
+};
+
+export default ScrollToTop;
