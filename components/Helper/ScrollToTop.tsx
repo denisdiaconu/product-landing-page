@@ -9,8 +9,19 @@ const ScrollToTop = () => {
       if (window.screenY > 300) setIsVisible(true);
       else setIsVisible(false);
     };
+
+    window.addEventListener('scroll', toggleVisibility);
+
+    return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
-  return <div>ScrollToTop</div>;
+
+  const ScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+  return <div className='fixed bottom-4 animate-pulse right-4 cursor-pointer'>ScrollToTop</div>;
 };
 
 export default ScrollToTop;
