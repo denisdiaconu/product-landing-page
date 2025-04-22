@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-pink-800 flex flex-col justify-center relative w-full h-screen bg_clip">
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
-        <div>
+        <div data-aos="fade-up">
           <h1 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl mt-6 mb-6 leading-[2.5rem] md:leading-[3.5rem]">
             Superior sound, tangible quality
           </h1>
@@ -85,7 +85,11 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mx-auto hidden xl:block">
+        <div
+          className="mx-auto hidden xl:block"
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
           <Image src="/images/hero.png" alt="image" width={380} height={380} />
         </div>
       </div>
