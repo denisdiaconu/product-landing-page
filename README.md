@@ -54,7 +54,6 @@ To get a local copy up and running follow these simple example steps on the comm
 👤 **Denis Andrei Diaconu**
 
 - GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
-- Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
 - LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
 
 ## 🤝 Contributing
