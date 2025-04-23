@@ -30,6 +30,7 @@ const ReviewSlider = () => {
       autoPlay={true}
       autoPlaySpeed={4000}
       keyBoardControl={true}
+      removeArrowOnDeviceType={['tablet', 'mobile']}
     >
       <ReviewCard image="/images/c1.png" name="John Doe" role="Founder Codex" />
       <ReviewCard
