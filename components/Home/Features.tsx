@@ -52,7 +52,7 @@ const Features = () => {
             <div
               data-aos="fade-up"
               data-aos-delay={index * 60}
-              data-aos-anchor-placement="top-center"
+              data-aos-anchor-placement="top-bottom"
               key={index}
               className="text-center mx-auto"
             >
